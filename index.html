@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- botstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2c351a38a9.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet"> 
+
+		<!-- css -->
+		<link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+
+	<!-- heading -->
+
+	<!-- section navbar and search -->
+	<nav class="nav-header">
+		<div class="con-header">
+			<a href="index.html" class="nav-brand">
+				<img src="assets/img/logo.png" alt="img-brand-mymovielist" height="40px">
+			</a>
+
+				<div class="searchx" role="search">
+						<input type="text" id="query" placeholder="Ex. Search Actor / Actress">
+						<button id="submit">
+								<span class="search-icon">
+										<i class="fas fa-search"></i>
+								</span>
+						</button>
+				</div>
+
+				<div class="thememode">
+					<span class="xt">LIGHT/DARK</span>
+					<label class="switch">
+							<input type="checkbox">
+							<span class="slider round"></span>
+					</label>
+				</div>
+		</div>
+	</nav>
+
+	<!-- main navbar -->
+	<nav id="main-navbar">
+			<div class="con-header">
+					<ul class="navbar-list">
+							<li><a href="index.html" class="btn-navbar inactive">Home</a></li>
+							<li><a href="news.html" class="btn-navbar inactive">News</a></li>
+							<li><a href="Review.html" class="btn-navbar inactive">Review</a></li>
+							<li><a href="upcoming.html" class="btn-navbar inactive">Upcoming</a></li>
+							<li><a href="new-trailer.html" class="btn-navbar inactive">Trailer</a></li>
+							<li><a href="movies.html" class="btn-navbar inactive">Movies</a></li>
+							<li><a href="top-movie.html" class="btn-navbar inactive">Top Movie</a></li>
+							<li><a href="popular this month.html" class="btn-navbar inactive">Popular Movie</a></li>
+					</ul>
+			</div>
+	</nav>
+
+	<!-- end heading -->
+
+	<!-- query search -->
+	<div class="con-main con-search">
+		<div id="note"></div>
+		<ul id="halaman"></ul>
+			<div id="myModal">
+				<span class="btn-person-close">x</span>
+				<div id="content-view"></div>
+			</div>
+	</div>
+	<!-- end query search -->
+
+	<!-- main content -->
+	<div id="box-content" class="content-utama">
+		<div id="main-bar">
+
+			<!-- news Hightlight -->
+			<div class="newsx">
+				<div class="bigetron">
+
+					<!-- line 1 -->
+					<div class="box-news b-left">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster2.jpeg" alt="">
+							</div>
+							<div class="box-title">
+								<h2>Spongebob Squarepants akan tayang bulan Juni</h2>
+							</div>
+							<span class="kategori">upcoming</span>
+						</a>
+					</div>
+					<div class="box-news b-center">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster4.jpg" alt="">
+							</div>
+							<div class="box-title">
+								<h2>James Bond ditunda penayanganya</h2>
+							</div>
+							<span class="kategori">news</span>
+						</a>
+					</div>
+					<div class="box-news b-right">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster7.jpg" alt="">
+							</div>
+							<div class="box-title">
+								<h2>Trailer Venom 2</h2>
+							</div>
+							<span class="kategori">trailer</span>
+						</a>
+					</div>
+
+					<!-- line 2 -->
+					<div class="box-news b-center-2">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster9.jpg" alt="">
+								<div class="box-title">
+									<h2>Review Train to Busan yang penuh zombie</h2>
+								</div>
+								<span class="kategori">review</span>
+							</div>
+						</a>
+					</div>
+					<div class="box-news b-right-2">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster1.jpg" alt="">
+								<div class="box-title">
+									<h2>Dongkrak Pendapatan, 'Birds of Prey' Ubah Judul Film</h2>
+								</div>
+								<span class="kategori">news</span>
+							</div>
+						</a>
+					</div>
+
+					<!-- line 3 -->
+					<div class="box-news b-left-3">
+						<a href="">
+							<div class="img-wrapping">
+								<img src="assets/img/poster8.jpg" alt="">
+							</div>
+							<div class="box-title">
+								<h2>Review Parasite si pemenang oscar</h2>
+							</div>
+							<span class="kategori">review</span>
+						</a>
+					</div>
+					<div class="box-news b-center-3">
+						<a href="news1.html">
+							<div class="img-wrapping">
+								<img src="assets/img/poster5.jpg" alt="">
+							</div>
+							<div class="box-title">
+								<h2>Black Widow akan di tunda penayanganya</h2>
+							</div>
+							<span class="kategori">news</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- end news highlight -->
+
+			<!-- main content -->
+			<div id="main-content">
+				<section id="news">   <!-- news section-->
+					<div class="main-head">
+						<h4>News</h4>
+						<a href="news.html">more...</a>
+					</div>
+					<div class="main-body">
+						<div class="news-left">
+							<a href="news1.html" class="top-news">
+								<img src="assets/img/poster5.jpg" alt="">
+								<h5>Akhirnya Black Widow Tunda Tayang Karena Virus Corona, Susul Mulan dan James Bond</h5>
+							</a>
+							<p class="penulis">Akbar Maulana <span class="tanggal">- 29 April 2020</span></p>
+							<span class="isi-top-news">
+								Akhirnya yang paling dikhawatirkan para penggemar Marvel Cinematic Universe menjadi kenyataan. Film Black Widow yang dibintangi Scarlett Johansson batal tayang 1 Mei 2020 menyusul wabah virus Corona.
+							</span>
+
+							<div class="recent-news">
+								<div class="tx">
+									<a href="news2.html">
+											<img src="assets/img/poster7.jpg" alt="">
+											<span class="judul-recent-news">Sony Umumkan Judul Venom 2 dan Tanggal Perilisan Baru</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+								<div class="tx">
+									<a href="news3.html">
+											<img src="assets/img/poster13.jpg" alt="">
+											<span class="judul-recent-news">Sinopsis Dolittle, Petualangan Mencari Obat untuk Sang Ratu</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+								<div class="tx">
+									<a href="news4.html">
+											<img src="assets/img/poster1.jpg" alt="">
+											<span class="judul-recent-news">Dongkrak Pendapatan, 'Birds of Prey' Ubah Judul Film</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+							</div>	
+						</div> <!-- end news left-->
+
+						<div class="news-right">
+							<a href="news5.html" class="top-news">
+								<img src="assets/img/poster8.jpg" alt="">
+								<h5>Review Film: Parasite, Pemenang Film Terbaik Oscar 2020</h5>
+							</a>
+							<p class="penulis">Akbar Maulana <span class="tanggal">- 29 April 2020</span></p>
+							<span class="isi-top-news">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit libero dignissimos ut eos, architecto error, sunt repudiandae voluptas officia suscipit iusto eligendi velit cumque illum consequatur nisi, distinctio excepturi aut!
+							</span>
+
+							<div class="recent-news">
+								<div class="tx">
+									<a href="news6.html">
+											<img src="assets/img/poster12.jpg" alt="">
+											<span class="judul-recent-news">Cerita Terbaru Film Yowis Ben 3, Syuting di Banyuwangi Mulai April 2020</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+								<div class="tx">
+									<a href="news7.html">
+											<img src="assets/img/poster11.jpg" alt="">
+											<span class="judul-recent-news">Milea: Suara dari Dilan Tembus 3 Juta Penonton, Sutradara Ungkapkan Ini</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+								<div class="tx">
+									<a href="news8.html">
+											<img src="assets/img/poster10.jpg" alt="">
+											<span class="judul-recent-news">Deadpool Tak Ada di Fase Keempat Marvel Cinematic Universe, Ini Kata Sutradara</span>
+									</a><br>
+									<span class="tanggal">April 29, 2020</span>
+								</div>
+							</div>
+						</div> <!-- end news right-->
+					</div>
+				</section>
+
+				<section id="review"> <!-- review section-->
+					<div class="main-head">
+						<h4>Review</h4>
+						<a href="#">more...</a>
+					</div>
+					<div class="main-body">
+						<div class="ty">
+							<a href="selengkapnya1.html">
+									<img src="assets/img/joker 1.jpg" alt="">
+									<span class="judul-review">Joker</span>
+							</a>
+							<p class="penulis">By Akbar Maulana <span class="tanggal">- April 29, 2020</span></p>
+							<span class="review-isi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur corporis quis, autem dolore illo ex tempora nobis saepe, harum alias, doloremque totam quod fugiat repudiandae earum exercitationem facere provident unde.</span>
+						</div>
+						<div class="ty">
+							<a href="selengkapnya.html">
+								<img src="assets/img/dilan 1991.jpg" alt="">
+								<span class="judul-review">Dilan 1991</span>
+							</a>
+								<p class="penulis">By Akbar Maulana <span class="tanggal">- April 29, 2020</span></p>
+								<span class="review-isi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur corporis quis, autem dolore illo ex tempora nobis saepe, harum alias, doloremque totam quod fugiat repudiandae earum exercitationem facere provident unde.</span>
+						</div>
+						<div class="ty">
+							<a href="">
+									<img src="assets/img/poster7.jpg" alt="">
+									<span class="judul-review">Venom</span>
+							</a>
+								<p class="penulis">By Akbar Maulana <span class="tanggal">- April 29, 2020</span></p>
+								<span class="review-isi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur corporis quis, autem dolore illo ex tempora nobis saepe, harum alias, doloremque totam quod fugiat repudiandae earum exercitationem facere provident unde.</span>
+						</div>
+					</div>
+				</section> <!-- end review section-->
+
+
+				<section id="trailer">
+					<div class="main-head">
+						<h4>Trailer</h4>
+						<a href="new-trailer.html">more...</a>
+					</div>
+					<div class="main-body">
+						<div id="myCarousel" class="carousel slide" data-interval='false' data-ride="carousel">
+							<div id="box-trailer" class="carousel-inner">
+								<div class="carousel-item active"></div>
+								<div class="carousel-item two"></div>
+								<div class="carousel-item three"></div>
+								<div class="carousel-item four"></div>
+								<div class="carousel-item five"></div>
+							</div>
+							<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<!-- end main content -->
+
+			<!-- side bar -->
+			<div id="side-bar">
+				<div id="top-movie">  <!-- top Movie Section-->
+					<div class="main-head">
+						<h4>Top Movie</h4>
+					</div>
+					<div class="main-body">
+					</div>
+				</div> <!-- end top movie section-->
+
+				<div id="top-upcoming-movie">  <!-- top upcoming Movie Section-->
+					<div class="main-head">
+						<h4>Upcoming Movie</h4>
+						<a href="#">more...</a>
+					</div>
+					<div class="main-body">
+						
+					</div>
+				</div>
+
+			</div>
+			<!-- end side bar -->
+
+			</div>
+		</div>
+
+
+	<!-- footer -->
+	<nav id="main-footer">
+		<div class="con-header">
+				<ul class="footer-list">
+						<li><a href="index.html" class="btn-navbar inactive">Home</a></li>
+						<li><a href="about.html" class="btn-navbar inactive">About</a></li>
+						<li><a href="contact.html" class="btn-navbar inactive">Contact US</a></li>
+				</ul>
+		</div>
+	</nav>
+	<div id="copyright">
+			<img src="assets/img/logo-white.png" alt="">
+			<p>&copy Copyright 2020. All Right Reserved</p>
+	</div>
+	<!-- end footer -->
+
+
+	<!-- scroll to the top -->
+	<button class="btn-scroll" title="Go to the Top">
+		<img src="assets/img/up-arrow.svg" width="20px" alt="img-go-to-the-top">
+	</button>
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="assets/js/jquery.twbsPagination.js"></script>
+<script src="assets/js/main-function.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
